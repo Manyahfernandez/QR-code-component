@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@700&family=Outfit:wght@400;700&display=swap');
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 15px;
+    background-color: var(--Light-gray);
+}
+
+.contenedor{
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: var(--White);
+    margin: 10vh auto;
+}
+
+.qr{
+    border-radius: 10px;
+}
+
+.title{
+    font-family: "Outfit";
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 15px 20px;
+    color: var(--Dark-blue);
+}
+
+.paragragh{
+    font-family: "Outfit";
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: var(--Grayish-blue);
+}
